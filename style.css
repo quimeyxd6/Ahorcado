@@ -15,3 +15,14 @@ body {
 .container {
     width: 50%;
 }
+
+.palabra-a-adivinar{
+    display: flex;
+    justify-content: center;
+
+}
+
+.letra-ocultada{
+    background-color: red;
+    border: 1px solid black
+}
