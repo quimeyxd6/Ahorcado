@@ -18,8 +18,15 @@ letras.forEach(function(letra, indice) {
 });
 
 
+function comparar(){
+    if(palabraClave == rellear.value){
+        console.log("son la misma palabra");
+    } else {
+        console.log("no son iguales");
+    }
+};
 
 rellear.addEventListener('keydown', ()=>{
-    console.log('hola');
-
+    console.log(rellear.value);
+    comparar();
 });
