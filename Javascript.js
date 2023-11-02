@@ -7,8 +7,7 @@ console.log(palabraClave);
 console.log(palabraClave.length);
 
 miPalabra.textContent = palabraClave;
-
-miPalabra.classList.add('palabra');
+miPalabra.classList.add('azul');
 
 const letras = palabraClave.split('');
 console.log(letras);
