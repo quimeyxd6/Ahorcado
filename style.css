@@ -15,3 +15,11 @@ body {
 .container {
     width: 50%;
 }
+
+.palabra {
+    color: blue;
+}
+
+.no-ver{
+    color: red;
+}
